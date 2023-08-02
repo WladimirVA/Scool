@@ -1,0 +1,394 @@
+body {
+    scroll-behavior: smooth;
+    align-items: center;
+    width: 100%; 
+    max-width: 1366px; 
+    margin: auto;
+    font-family: 'Inter', 'Work Sans', "NunitoSans-Light", Arial, Helvetica, sans-serif;
+} 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 1em;
+}
+
+/* Стили выпадающего списка */
+ul.ddropdownn li {/* Считаем координаты относительно исходного места. */ 
+    position: relative; }
+ul.ddropdownn, ul.ddropdownn-inside {
+    /* Отступы на нуле. */
+    padding: 0;
+    /* Маркеры уберем. */
+    list-style-type: none;
+    }
+ul.ddropdownn-inside {
+    /* Спрячем дочерние элементы выпадающего списка. */
+    left: -9999px;
+    position: absolute;
+    }
+ul.ddropdownn li.ddropdownn-top {
+    /* Небольшой отступ. */
+    margin: 20px 1px 0 0;
+    /* Выравнивание по левой стороне. */
+    float: left;
+    display: inline;
+    }
+ul.ddropdownn li.ddropdownn-top a {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Снова отступы. */
+    padding: 3px 30px 4px;
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    width: 145px;
+    }
+ul.ddropdownn a.ddropdownn-top {/* Цвет фона. */ background: #FEF6F3; } */
+ul.ddropdownn a.ddropdownn-top:hover {/* Отступы. */ padding: 13px 20px 4px; }
+ul.ddropdownn li.ddropdownn-top:hover .ddropdownn-inside {
+    left: 0;
+    /* Делаю элементы блочными. */
+    display: block;
+    }
+ul.ddropdownn .ddropdownn-inside {/* Цвет фона. */ background: #FEF6F3; }
+ul.ddropdownn .ddropdownn-inside a:hover {/* Цвет фона изменится при наведении. */ 
+    background: #FEF6F3; }
+
+
+@media screen and (max-width: 745px) {
+    .header-nav {
+        display: block;
+        padding-top: 0px;
+    }
+}
+
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEF6F3;
+    padding: 35px 0px 0 70px;
+
+}
+
+.BEGINNES {
+    background: #FEF6F3;
+}
+
+.content-beginners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.beginners-inf {
+    padding: 50px 0 0 70px;
+}
+
+.beginners-inf h1 {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.08em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.035em;
+}
+
+.beginners-img img {
+    width: 100%;
+    height: auto;
+}
+
+.beginners-inf p {
+    margin-top: 50px;
+}
+
+.content-beginners {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.home_ul {
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+}
+
+.check {
+    margin-left: 15px;
+}
+
+.button_home {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background:#FBC815;
+    border-style: none;
+    border-radius: 25px;
+    width: 257px;
+    height: 56px;
+}
+
+.LEARNING {
+    background: #FDE4D3;
+}
+
+.learning {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.img-learning img {
+    width: 100%;
+    height: auto;
+}
+
+.content-learning h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 65px;
+
+} 
+
+.popular {
+    margin-left: 20px;
+}
+
+.learning-text {
+    max-width: 550px;
+    margin-top: 50px;
+}
+
+.learning-text p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.learning-text-img {
+    margin-top: 60px;
+}
+
+.learning-text-img p {
+    margin: -38px 0 0 20px;
+}
+
+.INFORMATION {
+    background: #4F68BB;
+    height: 1275px;
+}
+
+.information-text {
+    text-align: center;
+    color: #FFFFFF;
+    /* max-width: 932px; */
+}
+
+
+.content-information h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0 50px 0;
+}
+
+.content-information p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.information1 {
+    color: #FFFFFF;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0 0 0;
+}
+
+.information1 p {
+    max-width: 270px;
+}
+
+.information1 h3 {
+    padding: 65px 0 50px 0;
+}
+
+.information2 {
+    color: #FFFFFF;
+    height: 400px;
+    text-align: center;
+    margin: 60px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information2 p {
+    max-width: 270px;
+}
+.information2 h3 {
+    padding: 65px 0 50px 0;
+}
+
+.buttton-inf1 {
+    margin-top: 39px;
+}
+.buttton-inf2 {
+    margin-top: 95px;
+}
+.buttton-inf3 {
+    margin-top: 55px;
+}
+.buttton-inf4 {
+    padding-top: 63px;
+}
+.buttton-inf5 {
+    padding-top: 25px;
+}
+
+.TRANING {
+    background:rgba(251, 205, 166, 1);
+    height: 345px;
+}
+
+.training {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.training-inf {
+    display: block;
+    text-align: center;
+}
+
+.training-inf p {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.buttton-training1 {
+    padding-top: 45px;
+}
+
+.buttton-training {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+   background: rgba(240, 63, 90, 1);
+}
+
+.training-img {
+    margin-top: -60px;
+}
+
+.FOOTER {
+    background:rgba(205, 216, 252, 1);
+    height: 140px;
+    align-items: center;
+    display: grid;
+    justify-items: stretch;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-around
+}
+
+.ddropdownn-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ddropdownn-menu {
+    display: flex;
+}
+
+.ddropdownn1, .ddropdownn2 {
+    display: flex;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style-type:none;
+
+}
+
+.ddropdownn2 {
+    margin: 40px 0 0 0;
+}
+
+.ddropdownn-footer li{
+    padding: 0 45px 0 0;    
+}
+
+.ddropdownn-footer a {
+    text-decoration: none;
+    color: rgba(57, 57, 57, 1);
+    ;
+}

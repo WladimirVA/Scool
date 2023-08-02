@@ -1,0 +1,100 @@
+.TUTORIAL {
+    background: rgba(254, 246, 243, 1);
+}
+
+h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-tutorial {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 150px 0;
+}
+
+.tutorial-inf {
+    max-width: 475px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 40px 0 0 0;
+
+}
+
+.tutorial-p {
+    margin: 60px 0 0 0;
+}
+
+.CATEGORIES {
+    background: rgba(253, 228, 211, 1);
+    height: 965px;
+}
+
+.content-categories {
+    padding-top: 80px;
+}
+
+.categories1, .categories2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information-ang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 240px;
+    background: rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.information-ang p {
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgba(31, 58, 146, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.categories2 {
+    padding: 140px 0 140px 0;
+}
+
+.categories1 {
+    padding: 120px 0 0 0;
+}
+.ball, .ball2 {
+    position: absolute;
+}
+
+.ba {
+    text-align: center;
+    margin-right: -336px;
+    
+}
+.ba2 {
+    text-align: left;
+    margin: 0px 0 -2px 65px;
+
+}
+.ba3 {
+    text-align: center;
+    margin-top: -340px;
+}
