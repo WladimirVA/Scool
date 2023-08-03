@@ -8,15 +8,6 @@
     text-align: -webkit-center;
 }
 
-.header {
-    z-index: 1;
-    position: relative;
-}
-
-ul.ddropdownn .ddropdownn-inside {
-    background:none;
-}
-
 .content-pictures-title h1{
     font-family: Inter;
     font-size: 36px;
