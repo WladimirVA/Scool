@@ -1,0 +1,56 @@
+.PICTURES_TITLE {
+    background-image: url(../img/Rectangle.jpg);
+    width: 1366px;
+    height: 261px;
+    background-size: cover;
+    position: relative;
+    display:block;
+    text-align: -webkit-center;
+}
+
+.content-pictures-title h1{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 40px 0 0 0;
+}
+
+.content-pictures-title p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.PICTURES {
+    background-color: rgba(253, 228, 211, 1);
+    min-height: 1000px;
+}
+
+.item img{
+    width: 300px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 30px 15px 30px 20px;
+    cursor:pointer
+}
+
+.button111 {
+    display: flex;
+    justify-content: center;
+}
+
+.button111 img {
+    width: 70px;
+}
