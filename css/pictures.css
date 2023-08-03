@@ -46,6 +46,10 @@
     cursor:pointer
 }
 
+.next {
+    margin-left: 60px;
+}
+
 .button111 {
     display: flex;
     justify-content: center;
